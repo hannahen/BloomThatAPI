@@ -1,0 +1,174 @@
+[18-Oct-2016 01:02:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /Applications/MAMP/htdocs/API/APIKey.class.php on line 20
+[18-Oct-2016 01:04:49 Europe/Berlin] PHP Notice:  Undefined index: apiKey in /Applications/MAMP/htdocs/API/tweetAPI.php on line 28
+[18-Oct-2016 01:07:42 Europe/Berlin] PHP Notice:  Undefined variable: APIKey in /Applications/MAMP/htdocs/API/tweetAPI.php on line 49
+[18-Oct-2016 01:07:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function generateAPIKey() on null in /Applications/MAMP/htdocs/API/tweetAPI.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/API/API.class.php(71): Products_API->generateAPIKey(Array)
+#1 /Applications/MAMP/htdocs/API/products.php(25): API->processAPI()
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/API/tweetAPI.php on line 49
+[18-Oct-2016 01:09:03 Europe/Berlin] PHP Notice:  Undefined variable: APIKey in /Applications/MAMP/htdocs/API/tweetAPI.php on line 48
+[18-Oct-2016 01:09:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function generateAPIKey() on null in /Applications/MAMP/htdocs/API/tweetAPI.php:48
+Stack trace:
+#0 /Applications/MAMP/htdocs/API/API.class.php(71): Products_API->generateAPIKey(Array)
+#1 /Applications/MAMP/htdocs/API/products.php(25): API->processAPI()
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/API/tweetAPI.php on line 48
+[18-Oct-2016 01:09:12 Europe/Berlin] PHP Notice:  Undefined variable: APIKey in /Applications/MAMP/htdocs/API/tweetAPI.php on line 48
+[18-Oct-2016 01:09:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function generateAPIKey() on null in /Applications/MAMP/htdocs/API/tweetAPI.php:48
+Stack trace:
+#0 /Applications/MAMP/htdocs/API/API.class.php(71): Products_API->generateAPIKey(Array)
+#1 /Applications/MAMP/htdocs/API/products.php(25): API->processAPI()
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/API/tweetAPI.php on line 48
+[18-Oct-2016 21:13:10 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:13:16 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:15:43 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:15:46 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:16:12 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:16:12 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:16:15 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:16:15 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:16:45 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:16:45 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:17:41 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:17:41 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:20:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /Applications/MAMP/htdocs/API/tweetAPI.php on line 49
+[18-Oct-2016 21:20:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /Applications/MAMP/htdocs/API/tweetAPI.php on line 49
+[18-Oct-2016 21:20:50 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:20:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:21:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /Applications/MAMP/htdocs/API/tweetAPI.php on line 49
+[18-Oct-2016 21:21:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /Applications/MAMP/htdocs/API/tweetAPI.php on line 49
+[18-Oct-2016 21:22:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /Applications/MAMP/htdocs/API/tweetAPI.php on line 49
+[18-Oct-2016 21:22:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /Applications/MAMP/htdocs/API/tweetAPI.php on line 49
+[18-Oct-2016 21:23:02 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:23:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:23:05 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:23:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:23:18 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:23:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:26:58 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:26:58 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:28:26 Europe/Berlin] PHP Fatal error:  Cannot use try without catch or finally in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:28:26 Europe/Berlin] PHP Fatal error:  Cannot use try without catch or finally in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:28:43 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:31:05 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:31:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:31:07 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:31:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:31:55 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:31:55 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:31:57 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:31:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:34:11 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:34:15 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 21:35:37 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:36:39 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:37:58 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:38:00 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:38:41 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:38:47 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:39:09 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:39:12 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:39:42 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:44:20 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:44:20 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:46) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:45:28 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:45:28 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:46) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:47:03 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:47:03 Europe/Berlin] 
+[18-Oct-2016 21:47:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:46) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:51:00 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:51:00 Europe/Berlin] 
+[18-Oct-2016 21:51:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:46) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:51:21 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:51:21 Europe/Berlin] 
+[18-Oct-2016 21:51:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:46) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:53:29 Europe/Berlin] HELP
+[18-Oct-2016 21:53:29 Europe/Berlin] HELP
+[18-Oct-2016 21:53:29 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:53:29 Europe/Berlin] 
+[18-Oct-2016 21:53:29 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:46) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:59:47 Europe/Berlin] gooble
+[18-Oct-2016 21:59:47 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:59:47 Europe/Berlin] 
+[18-Oct-2016 21:59:47 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:46) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 21:59:49 Europe/Berlin] gooble
+[18-Oct-2016 21:59:49 Europe/Berlin] gooble
+[18-Oct-2016 21:59:49 Europe/Berlin] PHP Warning:  file_get_contents(products3.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[18-Oct-2016 21:59:49 Europe/Berlin] 
+[18-Oct-2016 21:59:49 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:46) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 22:03:10 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 22:03:10 Europe/Berlin] 
+[18-Oct-2016 22:03:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/API/tweetAPI.php:36) in /Applications/MAMP/htdocs/API/API.class.php on line 77
+[18-Oct-2016 22:04:20 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 22:04:20 Europe/Berlin] 
+[18-Oct-2016 22:04:29 Europe/Berlin] PHP Warning:  file_get_contents(products2.json): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/API/tweetAPI.php on line 36
+[18-Oct-2016 22:04:29 Europe/Berlin] 
+[19-Oct-2016 23:21:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'protected' (T_PROTECTED) in /Applications/MAMP/htdocs/API/tweetAPI.php on line 57
+[19-Oct-2016 23:21:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'protected' (T_PROTECTED) in /Applications/MAMP/htdocs/API/tweetAPI.php on line 57
+[19-Oct-2016 23:22:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /Applications/MAMP/htdocs/API/tweetAPI.php on line 69
+[19-Oct-2016 23:22:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /Applications/MAMP/htdocs/API/tweetAPI.php on line 69
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:22:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Warning:  error_log() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/API/tweetAPI.php on line 60
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:23:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 60
+[19-Oct-2016 23:24:16 Europe/Berlin] 
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
+[19-Oct-2016 23:25:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/API/tweetAPI.php on line 46
